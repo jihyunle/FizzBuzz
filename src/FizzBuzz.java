@@ -1,9 +1,13 @@
+/*
+* print # 1 through 100
+* for multiples of 3, print "Fizz" instead
+* for multiples of 5, print "Buzz"
+* for #s that are multiples of both, print "FizzBuzz"
+* */
+
 public class FizzBuzz {
     public static void main(String[] args){
-        // print # 1 through 100
-        // for multiples of 3, print "Fizz" instead
-        // for multiples of 5, print "Buzz"
-        // for #s that are multiples of both, print "FizzBuzz"
+
         for(int i=1; i<=100; i++){
             if(i%3==0 && i%5==0){
                 System.out.println("FizzBuzz");
